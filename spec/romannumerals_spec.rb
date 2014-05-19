@@ -10,6 +10,10 @@ describe "RomanNumerals" do
     expect(convert(3)).to eq("III")
   end
 
+  it "should convert 4 to IV" do
+    expect(convert(4)).to eq("IV")
+  end
+
   it "should convert 5 to V" do
     expect(convert(5)).to eq("V")
   end
@@ -22,8 +26,20 @@ describe "RomanNumerals" do
     expect(convert(8)).to eq("VIII")
   end
 
+  it "should convert 9 to IX" do
+    expect(convert(9)).to eq("IX")
+  end
+
   it "should convert 10 to X" do
     expect(convert(10)).to eq("X")
+  end
+
+  it "should convert 19 to XIX" do
+    expect(convert(19)).to eq("XIX")
+  end
+
+  it "should convert 20 to XX" do
+    expect(convert(20)).to eq("XX")
   end
 
 	
