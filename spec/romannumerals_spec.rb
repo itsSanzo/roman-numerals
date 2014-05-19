@@ -70,5 +70,9 @@ describe "RomanNumerals" do
     expect(convert(1000)).to eq("M")
   end
 
+  it "should convert 1987 to MCMLXXXVII" do
+    expect(convert(1987)).to eq("MCMLXXXVII")
+  end
+
 	
 end

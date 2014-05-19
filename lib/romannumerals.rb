@@ -25,5 +25,4 @@ def convert(number)
   end
 
   result
-  
 end
