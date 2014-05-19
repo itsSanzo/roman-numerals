@@ -13,5 +13,11 @@ describe "RomanNumerals" do
       expect(convert(3)).to eq("III")
   end
 
+  it "should convert 5 to V" do
+      expect(convert(5)).to eq("V")
+  end
+
+
+
 	
 end
