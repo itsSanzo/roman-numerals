@@ -42,5 +42,33 @@ describe "RomanNumerals" do
     expect(convert(20)).to eq("XX")
   end
 
+  it "should convert 34 to XXXIV" do
+    expect(convert(34)).to eq("XXXIV")
+  end
+
+  it "should convert 50 to L" do
+    expect(convert(50)).to eq("L")
+  end
+
+  it "should convert 85 to LXXXV" do
+    expect(convert(85)).to eq("LXXXV")
+  end
+
+  it "should convert 100 to C" do
+    expect(convert(100)).to eq("C")
+  end
+
+  it "should convert 479 to CDLXXIX" do
+    expect(convert(479)).to eq("CDLXXIX")
+  end
+
+  it "should convert 500 to D" do
+    expect(convert(500)).to eq("D")
+  end
+
+  it "should convert 1000 to M" do
+    expect(convert(1000)).to eq("M")
+  end
+
 	
 end
